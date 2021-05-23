@@ -13,6 +13,8 @@
 		A5A74A7F2657A4AE0004B240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A74A7D2657A4AE0004B240 /* Main.storyboard */; };
 		A5A74A812657A4AF0004B240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A74A802657A4AF0004B240 /* Assets.xcassets */; };
 		A5A74A842657A4AF0004B240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A74A822657A4AF0004B240 /* LaunchScreen.storyboard */; };
+		A5AFCE96265A94CF00EA3495 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AFCE94265A94BB00EA3495 /* AmaticSC-Bold.ttf */; };
+		A5AFCE97265A94CF00EA3495 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AFCE95265A94BC00EA3495 /* AmaticSC-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A5A74A802657A4AF0004B240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A74A832657A4AF0004B240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A74A852657A4AF0004B240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AFCE94265A94BB00EA3495 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmaticSC-Bold.ttf"; path = "../../../../../../../../../Users/dimas1c/Library/Fonts/AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		A5AFCE95265A94BC00EA3495 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmaticSC-Regular.ttf"; path = "../../../../../../../../../Users/dimas1c/Library/Fonts/AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		A5A74A6B2657A4AE0004B240 = {
 			isa = PBXGroup;
 			children = (
+				A5AFCE90265A94A700EA3495 /* fonts */,
 				A5A74A762657A4AE0004B240 /* RGB-mix */,
 				A5A74A752657A4AE0004B240 /* Products */,
 			);
@@ -65,6 +70,15 @@
 				A5A74A852657A4AF0004B240 /* Info.plist */,
 			);
 			path = "RGB-mix";
+			sourceTree = "<group>";
+		};
+		A5AFCE90265A94A700EA3495 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFCE95265A94BC00EA3495 /* AmaticSC-Regular.ttf */,
+				A5AFCE94265A94BB00EA3495 /* AmaticSC-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AFCE97265A94CF00EA3495 /* AmaticSC-Regular.ttf in Resources */,
+				A5AFCE96265A94CF00EA3495 /* AmaticSC-Bold.ttf in Resources */,
 				A5A74A842657A4AF0004B240 /* LaunchScreen.storyboard in Resources */,
 				A5A74A812657A4AF0004B240 /* Assets.xcassets in Resources */,
 				A5A74A7F2657A4AE0004B240 /* Main.storyboard in Resources */,
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2NGRX5LJ8;
 				INFOPLIST_FILE = "RGB-mix/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Varankov-IE.RGB-mix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2NGRX5LJ8;
 				INFOPLIST_FILE = "RGB-mix/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Varankov-IE.RGB-mix";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
